@@ -3,6 +3,11 @@
 This repository contains an Interview exercise given by Sporting Group. A Java Automation project that includes both API and UI test automation using Cucumber and Selenium. 
 It demonstrates how to automate user management tasks using REST API and test web pages with challenging and dynamic elements.
 
+observation:
+============
+* the API exercise had a issue where as delete user call getting too many request (429) error.
+* added code to handle the endpoint limitation.
+
 ## Project Structure
 
 - `src/test/java`: Contains the test automation code.
