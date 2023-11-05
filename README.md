@@ -6,7 +6,7 @@ It demonstrates how to automate user management tasks using REST API and test we
 ## Project Structure
 
 - `src/test/java`: Contains the test automation code.
-  -`API.steps`:Cucumber step definitions for API
+  -`API.steps`:Cucumber step definitions for API.
   - `config`: Configuration files and classes.
     - `Configuration.java`: Configuration settings for the project.
  - `hooks`: Cucumber hooks (e.g., setup and teardown).
@@ -41,7 +41,7 @@ It demonstrates how to automate user management tasks using REST API and test we
 ## Getting Started
 
 1. Clone this repository to your local machine.
-2. Download the appropriate `chromedriver.exe` ( version 119.0.6045.105 ) Chrome version and place it in the `src/test/resources/drivers` folder.
+2. Download the appropriate `chromedriver.exe` ( version 119.0.6045.105 ) version and place it in the `src/test/resources/drivers` folder (Attached).
 3. Run the tests using the provided runners, such as `RunAPI` and `RunUI`.
 4. Or Use testng.xml to run all tests
 5. Test execution report will be available at `test-output/SparkReport/Spark.html`
